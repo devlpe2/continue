@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                display: flex;
+            }
+              
+            .box{
+                justify-content: center;
+                text-align: center;
+                width: 500px;
+                height: 200px;
+                margin: 150px;
+                background-color: gray;
+            }
+        </style>
+        <title>
+            대학강의에서 원하는 강의 찾기 project
+        </title>
+    </head>
+    <body>
+        <h1>대학강의에서 원하는 강의 찾기</h1>
+        <br>
+        <p>
+            1.문제점 발견:
+            대학교 학사정보에 강의명이 엑셀표로 나왔는데 여기서 원하는 강의를 찾기 쉽지않았다.
+        </p>
+        <br>
+        <p>
+            2.문제해결 방법 구상:
+            어떻게 하면 이 엑셀표에서 보다 쉽게 원하는 강의를 찾을 수 있을까?를 고민하였다.
+            그러다가 파이썬의 데이터처리 기술을 활용하면 고민을 해결할 수 있을거라고 생각했다.
+        </p>
+        <br>
+        <p>
+            3.문제해결을 위해 코드진행을 구성하고 필요한 모듈에 대해 조사했다.
+        </p>
+        <hr>
+        <h3>필요했던 모듈: pandas</h3>
+        <h3>코드진행 구성:</h3>
+            <ol>
+                <li>엑셀파일에서 데이터를 추출</li>
+                <li>columns를 추출</li>
+                <li>검색가능한 키워드를 사용자에게 제안</li>                    
+                <li>키워드입력받기</li>
+                <li>결과를 엑셀파일로 저장</li>
+            </ul>
+            <hr>
+            
+            <div class="container">
+                <div class="box">
+                    <p>작성한 코드</p>
+                    <img src="https://postfiles.pstatic.net/MjAyMzA3MjlfMTE2/MDAxNjkwNTU5ODU3OTIw.qTWUAX-_zcaNn1aVqhJz3xIocozlvaa1-TdkcHBeZEUg.uoSqt3TrNKR024lsLkBkeFsf0JcDKQLALplJQrRlpKwg.PNG.rlawhdans7898/%EC%88%98%EC%97%85%EC%B0%BE%EA%B8%B0%EC%BD%94%EB%93%9C.png?type=w773">
+                </div>
+            
+                <div class="box">
+                    <p>코드 실행화면(형광펜으로 작성된 부분이 입력값)</p>
+                    <img src="https://postfiles.pstatic.net/MjAyMzA3MjlfMTI2/MDAxNjkwNTU5ODU3OTMw.HzZAlGUPlXcFAF_iMUtIxrau7g35aOmxObVHXJY4kZEg.A9IXAXEozGNKnCZAq5kFAI8uU-GNO4m0dQIrBErcEFEg.PNG.rlawhdans7898/%EC%88%98%EC%97%85%EC%B0%BE%EA%B8%B0%EA%B2%B0%EA%B3%BC.png?type=w773">
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <p>실행 후 엑셀파일</p>
+                    <img src="https://postfiles.pstatic.net/MjAyMzA3MjlfMTk4/MDAxNjkwNTYwNTc3MjY0.mb2uDXZKQXTt-U_LJK2xFN2epYMKK1Tld-AU4onuMfgg.536boDQTQn8aRZVCLTmxZmCHXa3Lv2TdWMVGq3TS9Ekg.PNG.rlawhdans7898/%EC%97%91%EC%85%80%ED%91%9C%EC%BA%A1%EC%B2%98.png?type=w773">
+                </div>
+            </div>
+    </body>
+</html>
